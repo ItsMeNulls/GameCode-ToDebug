@@ -1,0 +1,1 @@
+(function($) {$ = Graphics.render;Graphics.render = function(stage){if (this._skipCount <= 0){this._skipCount = 0;} $.apply(this, arguments);};})();
